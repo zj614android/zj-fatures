@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autolabel="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zj_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dpizarro.libraries.autolabelui.ZjTestActivity">
+
+    <com.dpizarro.autolabel.library.AutoLabelUI
+        android:id="@+id/label_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        autolabel:icon_cross="@drawable/cross"
+        autolabel:label_background_res="@color/default_background_label"
+        autolabel:label_clickable="true"
+        autolabel:max_labels="10"
+        autolabel:show_cross="true"
+        autolabel:text_color="@android:color/white"
+        autolabel:text_size="@dimen/label_title_size" />
+
+</RelativeLayout>
